@@ -1,0 +1,81 @@
+﻿@model IEnumerable<TMDT_Project.ViewModel.GameVM>;
+@{
+    ViewData["Title"] = "Shopping Page";
+    ViewData["Des"] = "Các sản phẩm trong shop";
+    ViewData["Author"] = "Tên chủ shop";
+    ViewData["Keyword"] = "Các Game nổi bật";
+    Layout = "/Views/Shared/_layoutTemplate.cshtml";
+    ViewData["CSSLink"] = "/css/style.css";
+    int index = 0;
+}
+
+<div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-8">
+        <nav class="navbar navbar-light bg-light justify-content-around">
+            <div>
+                <a asp-action="orderby" asp-controller="Product" data-value="price" asp-route-type="price" class="toggle btn btn-outline-primary ">Giá</a>
+                <a asp-action="orderby" asp-controller="Product" data-value="view" asp-route-type="view" class="toggle btn btn-outline-primary">Lượt xem</a>
+                <a asp-action="orderby" asp-controller="Product" data-value="like" asp-route-type="like" class="toggle btn btn-outline-primary">Lượt thích</a>
+            </div>
+
+
+            <a class="btn btn-outline-success my-2 my-sm-0" asp-action="search" asp-controller="Product">Search</a>
+
+        </nav>
+        <section style="background-color: #eee;">
+            <div id="container" class="container py-5">
+                @await Html.PartialAsync("~/Views/Partials/_Product.cshtml", Model)
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+                <a id="load" class="btn btn-outline-secondary btn-lg">Tải thêm</a>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        var index = 1;
+        var type = "@ViewBag.OrderType";
+        const total_product = "@ViewBag.Max";
+        var container = document.getElementById("container");
+        var buttons = document.getElementsByClassName("toggle");
+
+        for (let i = 0; i < buttons.length; i++) {
+            if (buttons[i].getAttribute("data-value") === type) {
+                buttons[i].classList.add("active");
+            }
+        }
+
+        $("#load").on("click", () => {
+            index += 1;
+            if (0 > total_product - (index - 1) * 9) {
+                alert("Đã hết sản phẩm");
+            }
+            else {
+                $.ajax({
+                    url: "/Product/LoadMore",
+                    data: { orderType: type, page: index },
+                    success: (response) => {
+                        console.log("success");
+                        var newdiv = document.createElement("div");
+                        newdiv.innerHTML = response;
+                        container.appendChild(newdiv);
+                    },
+                    error: () => {
+                        console.log("Đã hết sản phẩm để tìm")
+                        $(this).prop('disabled', true);
+                    },
+                })
+            }
+
+        })
+
+    </script>
+}

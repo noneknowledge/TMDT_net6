@@ -1,0 +1,136 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewData["Des"]" />
+    <meta name="keywords" content="@ViewData["KeyWord"]" />
+    <meta name = "author" content="@ViewData["Author"]"/>
+    
+    <meta property="og:title" content="@ViewData["Title"]" />
+    <meta property="og:description" content="@ViewData["Des"]" />
+    <meta property="og:url" content="@ViewData["URL"]" />
+    <meta property="og:image" content="@ViewData["Thumbnail"]"  />
+
+
+    
+    <title>@ViewData["Title"] - TMDT_Project</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="@ViewData["CSSLink"]" />
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    @* <link rel="stylesheet" href="~/Product-Details/css/style.css"> *@
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="https://cn.i.cdn.ti-platform.com/cnemea/content/336/showpage/the-amazing-world-of-gumball/uk/showlogo.png"
+                 alt="logo" href="#">
+        </a>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a asp-controller="Home" asp-action="index">Trang chủ</a></li>
+                <li><a asp-controller ="Product" asp-action="index">Mua sắm</a></li>
+                <li><a asp-controller="Library" asp-action="index">Thư viện</a></li>
+                <li><a asp-controller="Cart" asp-action="CustomerCart">Giỏ hàng</a></li>
+                <li><a asp-controller="Order" asp-action="Index">Đơn hàng</a></li>
+
+
+            </ul>
+        </nav>
+        @if (@User.Identity.IsAuthenticated == false)
+        {
+            <a class="cta" asp-action="Login" asp-controller="Customer"><button>Đăng nhập </button></a>
+        }
+        else
+        {
+            
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    @User.FindFirst("FullName").Value
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" asp-action="Logout" asp-controller="Customer">Đăng xuất</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        }
+
+        
+        
+
+
+    </header>
+
+    @* <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div> *@
+    <div>
+        @RenderBody()
+    </div>
+
+    @await Html.PartialAsync("_LiveChat.cshtml")
+    <!-- end client section -->
+    <section class="info_section layout_padding mt-5" style="background-color: #24252A;">
+        <div class="container-fluid">
+            <div class="row mx-auto" style="width:80%;">
+                <div class="col-md-3">
+                    <h5 class="text-white">
+                        Game
+                    </h5>
+                    <ul>
+                        <li>
+                            Đa dạng thể loại game
+                        </li>
+                        <li>
+                            Hỗ trợ chơi game chung
+                        </li>
+                        <li>
+                            Kết bạn 4 phương
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-white">
+                        Dịch vụ
+                    </h5>
+                    <ul>
+                        <li>
+                            Mua hàng trực tuyến
+                        </li>
+                        <li>
+                            Tiện lợi
+                        </li>
+                        <li>
+                            Nhanh gọn
+                        </li>
+                        <li></li>
+                    </ul>
+                </div >
+                <div class="col-md-6">
+                    
+                    @await Html.PartialAsync("_MailChimp.cshtml")
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <!-- footer section -->
+    
+    <!-- footer section -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

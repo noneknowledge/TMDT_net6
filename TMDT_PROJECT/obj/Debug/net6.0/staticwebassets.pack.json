@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TMDT_PROJECT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TMDT_PROJECT.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Email\\confirm_template.html",
+      "PackagePath": "staticwebassets\\Email\\confirm_template.html"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Images\\fb.png",
+      "PackagePath": "staticwebassets\\Images\\fb.png"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Images\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\instagram.png"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Images\\linkedin.png",
+      "PackagePath": "staticwebassets\\Images\\linkedin.png"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Images\\videoIcon.jpg",
+      "PackagePath": "staticwebassets\\Images\\videoIcon.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\css\\style.css",
+      "PackagePath": "staticwebassets\\Product-Details\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p1.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p1.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p2.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p2.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p3.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p3.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p4.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p4.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p5.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p5.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\image\\p6.jpg",
+      "PackagePath": "staticwebassets\\Product-Details\\image\\p6.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\Product-Details\\index.html",
+      "PackagePath": "staticwebassets\\Product-Details\\index.html"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TMDT_PROJECT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TMDT_PROJECT.props",
+      "PackagePath": "build\\TMDT_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TMDT_PROJECT.props",
+      "PackagePath": "buildMultiTargeting\\TMDT_PROJECT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TMDT_PROJECT.props",
+      "PackagePath": "buildTransitive\\TMDT_PROJECT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<TMDT_PROJECT.Data.Library>;
+
+@{
+    Layout = "/Views/Shared/_layoutTemplate.cshtml";
+}
+<style>
+    .bg-image {
+        /* The image used */
+        /* Add the blur effect */
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        /* Full height */
+
+        width: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 108px;
+        left: 0;
+        bottom: 250px;
+    }
+</style>
+
+<div>
+    <div class="bg-image">
+    </div>
+    <div class="container mt-5 bg-text" style="min-width:800px;background-color: #eee;filter:blur(0px)">
+        <div class="row">
+            <div class="col-4 border " style="min-height:700px">
+                @foreach (var item in Model)
+                {
+                    <a style="width:90%" data-img="@item.Game.Thumbnail" data-value="@item.Game.GameId" class="items m-2 btn btn-outline-primary text-truncate">@item.Game.GameName</a>
+                }
+            </div>
+
+            <div class="col-7 border" id="container" style="min-height:700px">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+
+
+        $(".items").click(
+            (e) => {
+                var items = document.getElementsByClassName("active");
+                if (items[0])
+                    items[0].classList.remove("active");
+                e.target.classList.add("active")
+                var value = e.target.getAttribute("data-value");
+                var img = "https://aspnetcore-ecommerce.s3.ap-southeast-1.amazonaws.com/" + e.target.getAttribute("data-img");
+                $(".bg-image").css('background-image', 'url(' + img + ')');
+
+                $.ajax({
+                    url: "/Library/PersonalGame",
+                    type: "POST",
+                    data: { gameid: value },
+                    success: (response) => {
+                        $("#container").html(response);
+                    }
+                });
+
+
+
+            });
+
+
+
+    </script>
+}

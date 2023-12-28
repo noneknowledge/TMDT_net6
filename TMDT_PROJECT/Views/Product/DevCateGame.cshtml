@@ -1,0 +1,36 @@
+﻿@model TMDT_Project.ViewModel.Dev_CateVM;
+
+@{
+    Layout = "/Views/Shared/_layoutTemplate.cshtml";
+    ViewData["Title"] = Model.Name;
+    ViewData["Des"] = "Các sản phẩm trong shop đến từ nhà phát triển, nhà phát hành " + Model.Name + " .Với châm ngôn: " + Model.Description;
+    ViewData["Author"] = Model.Name;
+    ViewData["Keyword"] = Model.Name;
+}
+
+<div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-8">
+        <nav class="navbar navbar-light bg-light">
+            <div class="row d-flex justify-content-between">
+                <div class="col-5 d-flex justify-content-center m-lg-3">
+                    <img width="250px" src="~/Product-Details/image/p2.jpg" class="rounded float-start" alt="@Model.Name">
+                </div>
+                <div class="col-5">
+                    <h1>@Model.Name</h1>
+                    <p>@Model.Description</p>
+                </div>
+            </div>
+
+
+        </nav>
+        <section style="background-color: #eee;">
+            <div id="container" class="container py-5">
+                @await Html.PartialAsync("~/Views/Partials/_Product.cshtml", Model.Games)
+            </div>
+        </section>
+
+    </div>
+
+</div>

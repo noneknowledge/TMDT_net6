@@ -1,0 +1,56 @@
+﻿@model IEnumerable<TMDT_Project.ViewModel.GameVM>;
+@{
+    int index = 0;
+}
+
+
+
+
+@foreach (var item in Model)
+{
+
+    if (index %3== 0)
+    {
+                        
+            @:<div class="row mt-2">
+                        
+    }
+    <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="card">
+            <div class="d-flex justify-content-between p-3">
+                <p class="lead mb-0">Today's Combo Offer</p>
+                <div class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                        style="width: 35px; height: 35px;">
+                    <p class="text-white mb-0 small">@item.Sales%</p>
+                </div>
+            </div>
+            <a href="/pd/@item.GameId/@item.Alias">
+            <img  style="height:350px" src="https://aspnetcore-ecommerce.s3.ap-southeast-1.amazonaws.com/@item.Thumbnail"
+                    class="card-img-top img-thumbnail" alt="@item.GameName" />
+            </a>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <p class="small"><a href="/dev/@item.Dev.DevId/@item.Dev.Alias" class="text-muted">@item.Dev.Developer1</a></p>
+                    <p class="small text-danger "><s>$@item.Price</s></p>
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0 text-truncate">@item.GameName</h5>
+                    <h5 class="text-dark mb-0 ms-2 ">$@item.CurrPrice </h5>
+                </div>
+
+                <div class="d-flex justify-content-between mb-2">
+                    <p class="text-muted mb-0">Lượt xem <span class="fw-bold">@item.View</span></p>
+                    <button class="addProduct" data-value="@item.GameId">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    index += 1;
+    if (index %3 == 0)
+    {
+        @:</div>
+    }
+                    
+}
