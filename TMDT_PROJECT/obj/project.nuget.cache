@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pcbrkkIbYg0bPLnnsj/wE0OmaPPOcE3Hg4M9mD6c4B5kHJZQsW83DnlnjzlPbuwjsO/UZVaGrRAzFD+cXSYbDQ==",
+  "dgSpecHash": "dfHue4VpJTDTNUVtYEs7zWAgVI6Pj+lFVp7JzJ/nw0/ayGtwDPVQvYd1U4v6g3Q6L3M4bSNtHGIB633EdQeGVw==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
+  "projectFilePath": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

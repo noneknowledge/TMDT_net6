@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using TMDT_PROJECT.Data;
 using TMDT_PROJECT.Models;
+using TMDT_PROJECT.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
 
 builder.Services.AddSingleton(x => new PaypalClient
 (

@@ -4,7 +4,7 @@
 
 
 
-<h1>Comment section</h1>
+<h1>Bình luận</h1>
 <section style="background-color: #eee;">
     <div class="container my-5 py-5" style="height:100%">       
         @foreach (var item in Model)
@@ -19,9 +19,22 @@
                                      height="60" />
                                 <div>
                                     <h6 class="fw-bold text-primary mb-1">@item.UidNavigation.FullName</h6>
-                                    <p class="text-muted small mb-0">
-                                        Thich hoac khong thich
-                                    </p>
+                               
+                                        
+                                        @if  (item.IsLiked == null)
+                                        {
+                                        <p class="text-muted small mb-0">không biểu cảm</p>
+                                        }
+
+                                    @if (item.IsLiked?.ToUpper() == "TRUE")
+                                    {
+                                        <p class="text-muted small mb-0">Thích trò chơi</p>
+                                    }
+                                    @if (item.IsLiked?.ToUpper() == "FALSE")
+                                    {
+                                        <p class="text-muted small mb-0">Không thích trò chơi</p>
+                                    }
+                                    
                                 </div>
                             </div>
 

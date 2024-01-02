@@ -1,4 +1,4 @@
-﻿namespace TMDT_PROJECT.Models
+﻿namespace TMDT_PROJECT.Service
 {
     public interface IEmailService
     {

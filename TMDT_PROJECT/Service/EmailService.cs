@@ -1,14 +1,14 @@
 ﻿using System.Net.Mail;
 using System.Net;
 
-namespace TMDT_PROJECT.Models
+namespace TMDT_PROJECT.Service
 {
-    public class EmailService :IEmailService
+    public class EmailService : IEmailService
     {
         private readonly IWebHostEnvironment _envi;
 
-        public EmailService(IWebHostEnvironment envi) 
-        { 
+        public EmailService(IWebHostEnvironment envi)
+        {
             _envi = envi;
         }
         public string Email

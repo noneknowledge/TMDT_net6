@@ -7,6 +7,8 @@ using System.Security.Claims;
 using TMDT_Project.ViewModel;
 using TMDT_PROJECT.Data;
 using TMDT_PROJECT.Models;
+using TMDT_PROJECT.Service;
+using Microsoft.AspNetCore.Http.Extensions;
 
 namespace TMDT_PROJECT.Controllers
 {
@@ -90,7 +92,7 @@ namespace TMDT_PROJECT.Controllers
             try
             {
 
-                vm.IsActive = "true";
+                vm.IsActive = "false";
                 vm.IsHide = "false";
                 var khachhang = _mapper.Map<Client>(vm);
                 khachhang.Uid = Guid.NewGuid().ToString();
@@ -98,7 +100,7 @@ namespace TMDT_PROJECT.Controllers
                 khachhang.PassWord = vm.PassWord.ToSHA512Hash(khachhang.RandomKey);
 
 
-                string url = "https://localhost:7084/Customer/Confirm/" + khachhang.Uid;
+                string url = HttpContext.Request.GetEncodedUrl + "/Confirm/" + khachhang.Uid;
                 string subject = "Vui lòng xác thực email";
                 _emailSender.sendConfirmMail(khachhang.Email, subject, url, khachhang.FullName);
 

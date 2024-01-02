@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAy30BL+XluUKAwLW7JNhtbwAAAAACAAAAAAAQZgAAAAEAACAAAACNjH/8N0PNIiNrYr3eoX2HQkvKbsXp0FeZ40E358pgWQAAAAAOgAAAAAIAACAAAADW089rWF9egbGiBinVmsPME/+tJyJX33a0NijkzDozq4AAAAC+Lq3iTOtL+Ip2dzGaklff3sg2YYJWussPVD8SoZog+VeNQCaeQLgQisb9lbKj7xuY50O1DM/LYzyImMnRSgftRfvMCRp+pzkYt83N9O+MN7zys0d10WtrFY6pgqsMrlCG/yaVwDCLKUm8N1Eodz2Jxvl09WLe3OpN5civtbbJRUAAAACMZxI144mHp8yuq+Lch9O5nqLUrgD9ZJM79AinKRZHvROI6iw6+GaoDrrWLvATFQYfZdYHM9Sicmhv+FcODcc8</EncryptedPassword>
+    <History>True|2023-12-31T12:35:00.5525260Z;True|2023-12-31T19:11:21.2893748+07:00;True|2023-12-31T19:10:50.1475737+07:00;True|2023-12-31T19:08:34.1388312+07:00;True|2023-12-31T19:08:08.5961804+07:00;True|2023-12-31T18:36:40.5529937+07:00;True|2023-12-31T18:35:57.7963626+07:00;True|2023-12-28T15:28:53.2946221+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ChuoiKetNoi">
+      <Value>Data Source=tmdt-projectdbserver.database.windows.net,1433%3bInitial Catalog=Game_DB%3bUser ID=admin_nhom2%3bPassword=niie12345!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

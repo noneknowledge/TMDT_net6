@@ -32,10 +32,12 @@
                                     <div class="d-flex flex-row">
                                         @item.OrderDate
                                     </div>
-
-                                    <p class="text-truncate mb-4 mb-md-0">
+                                    <h4 class="text-truncate mb-4 mb-md-0">
+                                        Phương thưc thanh toán: @item.PaymentId
+                                    </h4>
+                                    <h4 class="text-truncate mb-4 mb-md-0">
                                         Số lượng sản phẩm mua: @item.OrderDetails.Count()
-                                    </p>
+                                    </h4>
                                 </div>
                                 <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
                                     <div class="d-flex flex-row align-items-center mb-1">

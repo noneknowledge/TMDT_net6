@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\TMDT_net6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\shared\\_layouttemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\shared\\_layouttemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\shared\\_livechat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\shared\\_livechat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\partials\\_comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\partials\\_comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\partials\\_library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\partials\\_library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\cart\\customercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\cart\\customercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\controllers\\paypalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\controllers\\paypalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|d:\\desktop\\tmdt_net6\\tmdt_project\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644CB86-3EA6-4DBC-86B3-1933A63683EF}|TMDT_PROJECT\\TMDT_PROJECT.csproj|solutionrelative:tmdt_project\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\CartController.cs",
+              "RelativeToolTip": "TMDT_PROJECT\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwNwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-29T12:22:31.974Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:354128415:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LiveChat.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Shared\\_LiveChat.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Shared\\_LiveChat.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Shared\\_LiveChat.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Shared\\_LiveChat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T12:38:12.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Library.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Partials\\_Library.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Partials\\_Library.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Partials\\_Library.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Partials\\_Library.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T12:08:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Library\\Index.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Library\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Library\\Index.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Library\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T12:07:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Comment.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Partials\\_Comment.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Partials\\_Comment.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Partials\\_Comment.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Partials\\_Comment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T12:07:23.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_layoutTemplate.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Shared\\_layoutTemplate.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Shared\\_layoutTemplate.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Shared\\_layoutTemplate.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Shared\\_layoutTemplate.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAuwHAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T11:30:40.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T11:21:01.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TMDT_PROJECT\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-31T11:20:25.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TMDT_PROJECT\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAIA0wGYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-31T11:19:30.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-30T11:17:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Product\\Details.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T11:38:03.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Search.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Product\\Search.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Product\\Search.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Product\\Search.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-30T11:19:16.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaypalController.cs",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\PaypalController.cs",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Controllers\\PaypalController.cs",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Controllers\\PaypalController.cs",
+              "RelativeToolTip": "TMDT_PROJECT\\Controllers\\PaypalController.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAuwKgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-30T11:14:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerCart.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Cart\\CustomerCart.cshtml",
+              "RelativeDocumentMoniker": "TMDT_PROJECT\\Views\\Cart\\CustomerCart.cshtml",
+              "ToolTip": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\Views\\Cart\\CustomerCart.cshtml",
+              "RelativeToolTip": "TMDT_PROJECT\\Views\\Cart\\CustomerCart.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEkAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-29T13:23:30.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

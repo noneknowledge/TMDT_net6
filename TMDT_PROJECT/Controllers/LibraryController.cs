@@ -61,7 +61,7 @@ namespace TMDT_PROJECT.Controllers
             {
                 var uid = User.FindFirst("uid").Value.ToString();
                 var model = await _ctx.Libraries.Include(a => a.Game).FirstOrDefaultAsync(a => a.GameId == gameid && a.Uid == uid);
-                var comment = await _ctx.Libraries.Where(a => a.GameId == gameid).Include(a => a.UidNavigation).ToListAsync();
+                var comment = await _ctx.Libraries.Where(a => a.GameId == gameid && a.FeedBack.Length>0).Include(a => a.UidNavigation).ToListAsync();
                 var data = new LibraryVM();
                 data.Uid = model.Uid;
                 data.IsLiked = model.IsLiked;

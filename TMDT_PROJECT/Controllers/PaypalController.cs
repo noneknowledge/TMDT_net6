@@ -63,6 +63,7 @@ namespace TMDT_PROJECT.Controllers
                     OrderDate = DateTime.Now,
                     Amount = items.Sum(a => a.CurrPrice),
                     Total = items.Sum(a => a.CurrPrice),
+                    PaymentId = "PayPal",
                 };
                 foreach (var element in items)
                 {
@@ -71,15 +72,16 @@ namespace TMDT_PROJECT.Controllers
                         OrderId = order.OrderId,
                         GameId = element.GameId,
                         Prices = element.CurrPrice,
+                       
 
                     };
-                    var lib = new Library()
-                    {
-                        GameId = element.GameId,
-                        Uid = uid,
-                    };
+                    //var lib = new Library()
+                    //{
+                    //    GameId = element.GameId,
+                    //    Uid = uid,
+                    //};
                     order.OrderDetails.Add(orderDetail);
-                    _ctx.Add(lib);
+                    //_ctx.Add(lib);
 
                 }
                 _ctx.Add(order);

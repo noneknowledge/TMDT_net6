@@ -2078,11 +2078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
+      "projectUniqueName": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
       "projectName": "TMDT_PROJECT",
-      "projectPath": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
+      "projectPath": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\TMDT_PROJECT.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\TMDT_6\\TMDT_PROJECT\\TMDT_PROJECT\\obj\\",
+      "outputPath": "D:\\Desktop\\TMDT_net6\\TMDT_PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

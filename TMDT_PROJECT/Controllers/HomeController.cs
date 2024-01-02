@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TMDT_PROJECT.Models;
@@ -15,6 +16,7 @@ namespace TMDT_PROJECT.Controllers
 
         public IActionResult Index()
         {
+            //ViewBag.url = HttpContext.Request.GetEncodedUrl();
             return View();
         }
 

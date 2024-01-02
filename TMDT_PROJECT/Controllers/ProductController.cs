@@ -84,9 +84,16 @@ namespace TMDT_PROJECT.Controllers
             return RedirectToAction("index", "Product", new { orderType = type });
         }
 
-        [Route("pd/{id}/{alias}")]
-        public async Task<IActionResult> Details(string id)
+        [Route("pd/{alias}")]
+        public async Task<IActionResult> Details(string alias)
         {
+            var gamespec = _ctx.Games.FirstOrDefault(a => a.Alias == alias);
+            if (gamespec == null)
+            {
+                return View("Error");
+            }
+
+            var id = gamespec.GameId;
             var a = await _ctx.Games.Include(a => a.Libraries).Include(a => a.Dev).Include(a => a.Publisher).Include(a => a.GameImages).FirstOrDefaultAsync(a => a.GameId == id);
             a.View += 1;
             _ctx.Update(a);
@@ -115,7 +122,7 @@ namespace TMDT_PROJECT.Controllers
                 Disliked = a.Disliked,
 
             };
-            var comment = await _ctx.Libraries.Where(a => a.GameId == id).Include(a => a.UidNavigation).ToListAsync();
+            var comment = await _ctx.Libraries.Where(a => a.GameId == id && a.FeedBack.Length>0).Include(a => a.UidNavigation).ToListAsync();
             game.Libraries = comment;
             var cate = await _ctx.GameCategories.Where(a => a.GameId == game.GameId).Include(a => a.Cate).ToArrayAsync();
             ViewBag.Cate = cate;
@@ -126,6 +133,8 @@ namespace TMDT_PROJECT.Controllers
         [Route("/dev/{id}/{alias}")]
         public async Task<IActionResult> DevGame(string id)
         {
+            
+            
             var data = await _ctx.Developers.FirstOrDefaultAsync(a => a.DevId == id);
             var model = new Dev_CateVM();
             model.Name = data.Developer1;

@@ -36,7 +36,7 @@
             <div class="d-flex">
                 <input class="form-control mr-sm-2" id="keyword" placeholder="Search" aria-label="Search">
                 <a class="btn btn-outline-success my-2 my-sm-0" id="search">Search</a>
-                <button onclick="setCate()">xem cate</button>
+                
             </div>
         </nav>
         <div id="container-search">
@@ -82,10 +82,7 @@
                 }
             });
         })
-        function setCate() {
-            console.log(cate);
-
-        }
+        
         $("#search").click(() => {
             var keyword = $("#keyword").val();
             $.ajax({
